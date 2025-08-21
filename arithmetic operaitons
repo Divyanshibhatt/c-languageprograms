@@ -1,0 +1,26 @@
+/*Q2 (User Inputs, Operations & Output)
+Write a program to input two numbers and display their sum, difference, product, and quotient*/
+#include<stdio.h>
+int main()
+{
+    int x = 0, y = 0,sum=0,difference=0,product=0,quotient=0;    //delare variables
+    scanf("%d%d", &x, &y); //taking input from user
+     sum = x + y; //sum of two numbers
+     difference=x-y;//difference of two numbers
+     product = x*y;//product of two numbers
+    printf("sum of x,y is =%d\n", sum);
+    printf("difference of x,y is=%d\n",difference);
+    printf("product of x,y is =%d\n",product);
+    if (y!=0) 
+    {
+        quotient =x/y;//quotient of two numbers,y=0 is not allowed
+        printf("quotient of x,y is =%d\n",quotient);
+
+    }
+    else
+    {
+        printf("y=0 not allowedfor division\n");
+    }
+    return 0;
+}
+
