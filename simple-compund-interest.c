@@ -7,9 +7,9 @@ int main()
     printf("enter principal,rate and time:");
     scanf("%f%f%f",&principal,&rate,&time);
         si=principal*rate*time/100;
-        amount=principal*(1+rate/100*time);
+        amount=principal*pow((1+rate/100),time);
         ci=amount-principal;
-        printf("simple interest=%f\n",si);
-        printf("compound interest=%f\n",ci);
+        printf("simple interest=%.2f\n",si);
+        printf("compound interest=%.2f\n",ci);
         return 0;
 }
