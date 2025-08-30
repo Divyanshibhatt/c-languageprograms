@@ -10,7 +10,8 @@ int main()
     d=b*b-4*a*c;
     if(d>0)
     {
-        root1=(-b+sqrt(d))/(2*a);
+        root1=(-b+sqrt(d))/(2*a);     //root 1
+
         root2=(-b-sqrt(d))/(2*a);
         printf("Roots are real and different.\n");
         printf("Root1=%.2f and Root2=%.2f",root1,root2);
