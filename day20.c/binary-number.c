@@ -1,21 +1,31 @@
-/*Q40 (Loops without Arrays/Strings)
-Write a program to find the 1’s complement of a binary number and print it*/
-#include<stdio.h>
-int main()
-{
-    int n,digit,complement=0,place=1;
-    printf("enter the binary number:");
-    scanf("%d",&n);
-    while(n>0)
-    {
-        digit=n%10;
-        if(digit==0)
-        {
-            complement=complement+1*place;
-        }
-        n=n/10;
-        place=place*10;
+
+
+//Q40: Write a program to find the 1’s complement of a binary number and print it.
+
+#include <stdio.h>
+
+int main() {
+    int num, digit, result = 0, place = 1, digits = 0, temp;
+    printf("Enter a binary no.= ");
+    scanf("%d", &num);
+    temp = num;
+
+    while (temp > 0) {
+        digits++;
+        temp /= 10;
     }
-    printf("the 1's complement of a binary number is:%d\n",complement);
+
+    temp = num;
+
+    while (temp > 0) {
+        digit = temp % 10;
+        if (digit == 0)
+            result += 1 * place;
+        temp /= 10;
+        place *= 10;
+    }
+
+    printf("%0*d\n", digits, result);
+
     return 0;
 }
