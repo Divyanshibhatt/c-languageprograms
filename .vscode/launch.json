@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Hp/OneDrive/Desktop/c programming language/c-languageprograms",
-      "program": "c:/Users/Hp/OneDrive/Desktop/c programming language/c-languageprograms/build/Debug/outDebug",
+      "cwd": "c:/Users/Hp/OneDrive/Desktop/c programming language/c-languageprograms/day20.c",
+      "program": "c:/Users/Hp/OneDrive/Desktop/c programming language/c-languageprograms/day20.c/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

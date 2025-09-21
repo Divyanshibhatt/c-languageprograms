@@ -35,4 +35,4 @@ int main()
     printf("The digit that occurs the most is: %d (occurs %d times)\n", most_frequent_digit, max_count);
 
     return 0;
-}
+} 
