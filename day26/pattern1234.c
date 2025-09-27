@@ -18,18 +18,24 @@
 
 *  */
 #include<stdio.h>
-int main()  
+int main()
 {
-    int n;
-    printf("Enter the number of rows: ");
-    scanf("%d", &n);
-    for (int i = 1; i <= n; i++)
+
+    for(int i=1 ; i<=5 ; i=i+2)
     {
-        for (int j = 1; j <= i; j++)
+        for(int j =1 ; j <= i ; j=j+1)
         {
-            printf("*");
+        printf("*\n");
         }
-        printf("\n");
-    }
-    return 0;
+    printf("\n");
+}
+
+    for(int i=3 ; i>=1 ; i=i-2)
+    {
+        for(int j =1 ; j <= i ; j=j+1)
+        {
+        printf("*\n");
+        }
+    printf("\n");
+}
 }
