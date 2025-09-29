@@ -8,6 +8,6 @@ int main()
     printf("enter the temperature");
     scanf("%f",&temp);
     fahren=(temp*num)+32;
-    printf("temperature in fahrenheit is=%.1f\n",fahren);
+    printf("temperature in fahrenheit is=%f\n",fahren);
     return 0;
 }
