@@ -8,7 +8,7 @@ int main()
     printf("Enter a string: ");
     while ((str[i] = getchar()) != '\n' && i < 99)
         i++;
-    str[i] = '\0'; // Null-terminate the string
+    str[i] = '\0';               // Null-terminate the string
     printf("Characters in the string:\n");
     for (int j = 0; j < i; j++)
         printf("%c\n", str[j]);
