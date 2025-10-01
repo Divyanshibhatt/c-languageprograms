@@ -9,14 +9,19 @@ int main()
     while ((str[i] = getchar()) != '\n' && i < 99)
         i++;
     str[i] = '\0';               // Null-terminate the string
-    for (int j = 0; j < i; j++) {
+    for (int j = 0; j < i; j++) 
+    {
         char ch = str[j];
-        if ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')) {
+        if ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')) 
+        {
             // Check for vowels
             if (ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U' ||
-                ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+                ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') 
+                {
                 vowels++;
-            } else {
+            } 
+            else 
+            {
                 consonants++;
             }
         }
