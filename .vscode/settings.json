@@ -58,6 +58,7 @@
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
   "files.associations": {
     "DAY52.C": "cpp",
-    "DAY53.C": "cpp"
+    "DAY53.C": "cpp",
+    "DAY66.C": "cpp"
   }
 }
