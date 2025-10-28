@@ -21,12 +21,12 @@ int main()
     for (i = 0; i < r2; i++)
         for (j = 0; j < c2; j++)
             scanf("%d", &arr2[i][j]);
-    // Initialize result matrix to zero
-    for (i = 0; i < r1; i++)
+    
+    for (i = 0; i < r1; i++)    // Initialize result matrix to zero
         for (j = 0; j < c2; j++)
             result[i][j] = 0;
-    // Multiply matrices
-    for (i = 0; i < r1; i++)
+    
+    for (i = 0; i < r1; i++)             // Multiply matrices
         for (j = 0; j < c2; j++)
             for (k = 0; k < c1; k++)
                 result[i][j] += arr1[i][k] * arr2[k][j];
@@ -34,7 +34,9 @@ int main()
     for (i = 0; i < r1; i++)
     {
         for (j = 0; j < c2; j++)
+        {
             printf("%d ", result[i][j]);
+        }
         printf("\n");
     }
     return 0;

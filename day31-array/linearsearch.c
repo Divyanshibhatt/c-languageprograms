@@ -4,7 +4,7 @@ Search for an element in an array using linear search.*/
 int main()
 {
     int n, i, target;
-    int found = 0; // Flag to indicate if the element is found
+    int found = 0;           // Flag to indicate if the element is found
 
     printf("Enter the number of elements in the array: ");
     scanf("%d", &n);
